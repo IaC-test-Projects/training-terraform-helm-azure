@@ -146,11 +146,11 @@ git push origin v1.0.0
 
 ## **Step 6: Publish on Terraform Registry**
 
-1. Go to [Terraform Registry Publish Page](https://registry.terraform.io/namespaces)
-2. Click **Publish Module**
-3. Choose your GitHub repo: `terraform-azurerm-resource-group`
-4. Registry will auto-detect the repo and release `v1.0.0`
-5. After publishing, your module will be available at:
+1. Go to [Terraform Registry Publish Page](https://registry.terraform.io/namespaces) (First create a Terraform registry account)
+3. Click **Publish Module**
+4. Choose your GitHub repo: `terraform-azurerm-resource-group`
+5. Registry will auto-detect the repo and release `v1.0.0`
+6. After publishing, your module will be available at:
 
    ```
    https://registry.terraform.io/modules/<your-username>/resource-group/azurerm
